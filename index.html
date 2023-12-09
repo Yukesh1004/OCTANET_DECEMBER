@@ -1,0 +1,154 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(45deg, #ff8a00, #e52e71);
+            color: #fff;
+        }
+
+        header {
+            background: linear-gradient(90deg, #3399ff, #ff66b2);
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background: linear-gradient(90deg, #ff66b2, #3399ff);
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        .portfolio-box {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2em;
+        }
+
+        .portfolio-item {
+            flex: 0 0 30%; /* Adjust the width of each box as needed */
+            border: 1px solid #ffffff;
+            padding: 1em;
+            background: linear-gradient(45deg, #f34f4f, #4f89cc);
+            border-radius: 10px; /* Add rounded corners */
+            text-align: center;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 1em;
+        }
+
+        .about-me {
+            margin: 2em 0; /* Add margin to separate from other content */
+            text-align: center;
+            color: #fff; /* Set text color to white */
+        }
+
+        .description-box {
+            border: 1px solid #ddd;
+            padding: 2em;
+            background: linear-gradient(45deg, #fff, #e0e0e0);
+            border-radius: 10px; /* Add rounded corners */
+            text-align: center;
+            color: #000; /* Set text color to black */
+            margin-bottom: 3em; /* Increase margin between box and footer */
+        }
+
+        footer {
+            background: linear-gradient(90deg, #3399ff, #ff66b2);
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em; /* Add space between the boxes and the footer */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Yukesh</h1>
+        <p>Web Developer & Cyber security</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>This is the home section. You can provide a brief introduction here.</p>
+
+        <!-- Portfolio Boxes -->
+        <div class="portfolio-box">
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Jobykon</h3>
+                <p>This is a website that acts as an interface between Manufacture industry and employees in that industry. It is similar to Linkedin</p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Description of Project 3.</p>
+            </div>
+        </div>
+        <!-- End Portfolio Boxes -->
+
+        <!-- About Me Box -->
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I am Your Name, a passionate web developer and designer. I love creating beautiful and functional websites. Let me share my journey and skills with you.</p>
+        </div>
+        <!-- End About Me Box -->
+
+        <!-- Description Box -->
+        <div class="description-box">
+            <h2>More About Me</h2>
+            <p>This is where you can provide additional details about yourself, your experiences, and anything else you'd like to share. Feel free to express your personality and showcase your uniqueness.</p>
+        </div>
+        <!-- End Description Box -->
+
+    </section>
+
+    <footer>
+        &copy; 2023 Yukesh. All rights reserved.
+    </footer>
+
+</body>
+</html>
